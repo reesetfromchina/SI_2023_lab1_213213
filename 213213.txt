@@ -1,0 +1,45 @@
+git init vo folderot prv cekor - inicijalizacija na git vo direktoriumot
+5. git remote add origin https://github.com/reesetfromchina/SI_2023_lab1_213213.git   - povrzuvanje na lokalen so dalecen repozitorium
+6. git add README.md   dodavanje na README.md dodavanje na scenata
+git commit -m "Initial commit"  - ovaa komanda pravi snapshot od dodadenite fajlovi so poraka "Initial commit" 
+7. git add SILab1.java
+git commit -m "Add java class"
+8. git push -u origin master - sinhronizacija na branch master so oddalecen repozitorium (github)
+9. git branch bug1 - dodavanje na nova granka so ime bug1
+git branch bug2 - dodavanje na nova granka so ime bug2
+git branch bug3 - dodavanje na nova granka so ime bug3
+10. git checkout bug1 - vleguvanje vo granka bug1
+11. git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+12. git checkout bug2
+13. git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+14. git checkout bug3
+15. git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+16. git checkout bug1
+git push -u origin bug1 - povrzuvanje na lokalnata granka so dalecen repozitorium
+git checkout bug2
+git push -u origin bug2
+git checkout bug3
+git push -u origin bug3
+17.git checkout master
+18.git merge bug1 - se vmetnuvaat promeni od grankata bug1 vo grankata master
+Se nema sluceno konflikti
+Fast forward strategija se koristi za da se izvrsi spojuvanjeto
+19. git push
+20. git merge bug2
+Nema konflikti pri izvrsuvanje na naredbata
+Za spojuvanje se koristi fast forward strategija
+21. git push
+22. git checkout bug3
+23. git rebase master - git rebase komanda integrira promeni od edna granka vo nova granka so reprodukcija na site commits od starata granka vo nova granka
+24. git checkout master
+25. git merge bug3
+nema konflikti
+fast forward strategija se koristi
+26. git push (za site branch posebno)
+27. git add logs.txt
+git add 213213.txt
+git commit -m "Final commit"
+28. git push

@@ -1,0 +1,36 @@
+commit 73de1bf2b9c699089558e7b1000d17dcdea66370 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:37:29 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 2208c8bd9a5ea323cee42519c49c0ef51af783fd
+Merge: e31723b 639aa30
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:46:02 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 639aa30a432706316eaf43fdf09d4c8de4be46f4 (origin/bug2, bug2)
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:36:13 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit e31723bcfc39ddb7519f89f0c6b402051845d1fe (origin/bug1, bug1)
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:33:50 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 18c10c91262f7c83b4eea38285e01f2bb401a169
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:26:27 2023 +0100
+
+    Add java class
+
+commit f15fa6fb1288757d339c8bac9659b63a76fa141c
+Author: reesetfromchina <100435809+reesetfromchina@users.noreply.github.com>
+Date:   Sun Mar 19 15:25:13 2023 +0100
+
+    Initial commit
